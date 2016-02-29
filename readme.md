@@ -7,7 +7,7 @@
 
 ## Framing
 
-This is going to be a code-free "think like a programmer" class. Please close your computers.
+This is going to be a code-free "think like a programmer" class. Please close your computers. You will not need them for the duration of the class.
 
 ## Exploration 1: Button
 
@@ -44,6 +44,38 @@ The more you try to stay in reality when coding, the more difficult coding can b
 
 Good developers strike a balance: they provide the bare minimum code necessary to create a sense of a specific reality.
 
+## Faking It
+
+[Display General Assembly on Google Maps.](https://www.google.com/maps/place/General+Assembly+Washington+DC/@38.9048728,-77.0339908,17z/data=!4m2!3m1!1s0x89b7b7bfc2a12169:0x21c1233b00cff054)
+
+### What is south of this image?
+
+In real life, the answer is the White House. In the computer world, the answer is "nothing".
+
+We have a perception of moving around a map, like we would in real life. But to have the entire world map loaded would take impossible amounts of memory.
+
+What's *really* happening is that Google is showing a tiny portion of the world map. When the user clicks and drags the mouse a certain amount, Google loads an additional tiny portion of the map.
+
+![Beta Brite](betabrite.jpg)
+
+### The text on this sign isn't *actually* moving.
+
+Small lights are turning on and off in a way that creates the illusion of moving.
+
+![Super Mario](mario.jpg)
+
+### What's behind Mario?
+
+Nothing. Not even nothing. That's like asking what's outside our Universe.
+
+The view of Mario's universe is created as it's necessary.
+
+On computers, if a tree falls in a forest and no-one's around to hear it, it really *doesn't* make a sound.
+
+### Computers are just little boxes of lights
+
+![Obligatory XKCD](computer_problems.png)
+
 ## Exploration 2: Flying
 
 [Display this page.](examples/flying.html)
@@ -56,24 +88,6 @@ With your table answer these questions:
 #### Q. What's the nearest thing on the page? Furthest?
 #### Q. What visual cues tell you what each thing is?
 #### Q. As literally and technically as possible, describe what's happening on this page.
-
-## Faking It
-
-[Display General Assembly on Google Maps.](https://www.google.com/maps/place/General+Assembly+Washington+DC/@38.9048728,-77.0339908,17z/data=!4m2!3m1!1s0x89b7b7bfc2a12169:0x21c1233b00cff054)
-
-#### What is south of this image?
-
-In real life, the answer is the White House. In the computer world, the answer is "nothing".
-
-We have a perception of moving around a map, like we would in real life. But to have the entire world map loaded would take impossible amounts of memory.
-
-What's *really* happening is that Google is showing a tiny portion of the world map. When the user clicks and drags the mouse a certain amount, Google loads an additional tiny portion of the map.
-
-![Beta Brite](betabrite.jpg)
-
-The text on this sign isn't *actually* moving. Small lights are turning on and off in a way that creates the illusion of moving.
-
-![Obligatory XKCD](computer_problems.png)
 
 ## Exploration 3: If it looks like a duck...
 
@@ -94,11 +108,13 @@ With your table, discuss:
 
 In "Agile" methodology, user stories describe every sequence of events a user may encounter when working with your app.
 
-You brainstorm a bunch of user stories, and then select the ones that are most essential. When a user can complete all of these stories, your app is considered complete.
+You brainstorm a bunch of user stories, and then select the ones that are most essential. When a user can complete all of these stories using your app, your app is considered complete.
 
 Then, you can create additional user stories.
 
-**You just created user stories for a duck.** That is: you defined what a user should experience in your creation in order for it to be considered a duck.
+> This strongly correlates to test-driven development (TDD), which we'll talk more about in future weeks.
+
+**You just created user stories for a duck.** That is: you defined what a user should experience in your creation in order for it to be considered a "complete" duck.
 
 ### *User* stories versus *code* stories
 
@@ -106,7 +122,7 @@ User stories describe what the user should be able to do. User stories **do not 
 
 #### Q. Why should you write user stories before you write code stories?
 
-What's important in a program is its perception by other people.
+What's most important in a program is its perception by other people. What's second-most important is your code.
 
 This is true of relationships as well: If you constantly hurt people's feelings, the fact that your intentions are always good doesn't really make a difference.
 
@@ -167,5 +183,6 @@ Without looking at the prompt for Final Countdown, create user stories for it an
 
 ## Resources
 
-- [Further "faking it" with old school graphics: a fascinating YouTube video](https://www.youtube.com/watch?v=Tfh0ytz8S0k)
+- [Further "faking it" with old school graphics](https://www.youtube.com/watch?v=Tfh0ytz8S0k): A fascinating YouTube video
+- [Making of Crash Bandicoot](http://all-things-andy-gavin.com/2011/02/04/making-crash-bandicoot-part-3/): How they faked the first 3D gaming world
 - [How to wireframe](https://www.gliffy.com/uses/wireframe-software/)
