@@ -212,3 +212,29 @@ Without looking at the prompt for Final Countdown, create user stories for it an
 - [Further "faking it" with old school graphics](https://www.youtube.com/watch?v=Tfh0ytz8S0k): A fascinating YouTube video
 - [Making of Crash Bandicoot](http://all-things-andy-gavin.com/2011/02/04/making-crash-bandicoot-part-3/): How they faked the first 3D gaming world
 - [How to wireframe](https://www.gliffy.com/uses/wireframe-software/)
+
+## Unrelated: Timing functions
+
+```js
+var stopwatchBucket = null;
+function sayHi(){
+  console.log("hi");
+}
+$("#start").click(function(){
+  if(stopwatchBucket === null){
+    console.log("Creating a new stopwatch and putting it in the bucket!");
+    stopwatchBucket = setInterval(sayHi, 1000);
+  }else{
+    console.log("Not doing anything because there's already a stopwatch in the bucket.");
+  }
+});
+$("#stop").click(function(){
+  if(stopwatchBucket){
+    console.log("Stopping whatever's in the bucket, and emptying the bucket.");
+    clearInterval(stopwatchBucket);
+    stopwatchBucket = null;
+  }else{
+    console.log("Not doing anything because there's nothing in the bucket.");
+  {
+});
+```
