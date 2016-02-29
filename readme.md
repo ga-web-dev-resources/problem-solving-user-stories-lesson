@@ -11,7 +11,7 @@ This is going to be a code-free "think like a programmer" class. Please close yo
 
 ## Exploration 1: Button (5 / 5 min)
 
-[Display this page.](examples/button.html)
+[Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/button.html)
 
 #### Q. What are we looking at?
 > A button being pushed.
@@ -78,7 +78,7 @@ On computers, if a tree falls in a forest and no-one's around to hear it, it rea
 
 ## Exploration 2: Flying (10 / 30 min)
 
-[Display this page.](examples/flying.html)
+[Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/flying.html)
 
 ### You Do (5 minutes)
 
@@ -93,7 +93,7 @@ With your table answer these questions:
 
 ## Exploration 3: If it looks like a duck... (10 / 40 min)
 
-[Display this page.](examples/duck.html)
+[Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/duck.html)
 
 ### You Do (3 minutes)
 
