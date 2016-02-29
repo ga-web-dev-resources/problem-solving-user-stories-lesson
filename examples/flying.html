@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flying</title>
+    <style>
+html{
+  background-color:#aef;
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+}
+.cloud{
+  border-radius:50%;
+  background-color:#fff;
+  position:absolute;
+  z-index:1000;
+  animation-name:fly;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:normal;
+}
+.cloud.nine{
+  top:50px;
+  width:200px;
+  height:50px;
+  opacity:0.5;
+  animation-duration:10s;
+}
+.cloud.ten{
+  top:125px;
+  width:300px;
+  height:75px;
+  opacity:0.7;
+  animation-duration:6s;
+}
+.cloud.eleven{
+  top:500px;
+  width:400px;
+  height:100px;
+  opacity:0.9;
+  animation-duration:3s;
+}
+@keyframes fly{
+  from{
+    left:101%;
+  }
+  to{
+    left:-101%;
+  }
+}
+.text{
+  position:relative;
+  top:400px;
+  font-family:cursive;
+  color:#99a;
+  text-shadow:0px 0px 5px #889;
+  font-size:200px;
+  text-align:center;
+  animation:float 2s ease-in-out alternate infinite;
+}
+@keyframes float{
+  from{
+    top:350px;
+  }
+  to{
+    top:400px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="cloud nine"></div>
+    <div class="cloud ten"></div>
+    <div class="cloud eleven"></div>
+    <div class="text">&caron;</div>
+  </body>
+</html>

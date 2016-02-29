@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button</title>
+    <style>
+html{
+  background-color:#fed;
+}
+#button{
+  border:0;
+  padding:0;
+  margin:100px auto 0 auto;
+  box-sizing:border-box;
+  width:400px;
+  height:200px;
+  border-radius:100px;
+  text-align:center;
+  font-family:Helvetica;
+  text-transform:uppercase;
+  font-size:60px;
+  line-height:60px;
+  color:#fdd;
+  text-shadow:1px -1px 0px #000;
+  border-style:solid;
+  border-top-color:#b22;
+  border-bottom-color:#d33;
+  animation: click 5s linear infinite;
+}
+@keyframes click{
+  0%, 60%, 100%{
+    border-top-width:0px;
+    border-bottom-width:20px;
+    padding-top:60px;
+    background-color:#f00;
+  }
+  65%, 95%{
+    border-top-width:20px;
+    border-bottom-width:0px;
+    padding-top:70px;
+    background-color:#d00;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div id="button">Push</div>
+  </body>
+</html>
