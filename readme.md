@@ -229,12 +229,12 @@ $("#start").click(function(){
   }
 });
 $("#stop").click(function(){
-  if(stopwatchBucket){
+  if(stopwatchBucket !== null){
     console.log("Stopping whatever's in the bucket, and emptying the bucket.");
     clearInterval(stopwatchBucket);
     stopwatchBucket = null;
   }else{
     console.log("Not doing anything because there's nothing in the bucket.");
-  {
+  }
 });
 ```
