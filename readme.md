@@ -9,7 +9,7 @@
 
 This is going to be a code-free "think like a programmer" class. Please close your computers. You will not need them for the duration of the class.
 
-## Exploration 1: Button
+## Exploration 1: Button (5 / 5 min)
 
 [Display this page.](examples/button.html)
 
@@ -34,7 +34,7 @@ This is going to be a code-free "think like a programmer" class. Please close yo
 - The background color darkens
 - The text moves down a little
 
-## Re-framing
+## Re-framing (5 / 10 min)
 
 We try to code things that reflect the real world. Apple gave my computer a desktop and folders. Mario gave me a universe to run around in. For your [projects](https://github.com/ga-dc/wdi8-project1-gallery), several of you made webpages that looked like a wooden table with playing cards on it.
 
@@ -44,7 +44,7 @@ The more you try to stay in reality when coding, the more difficult coding can b
 
 Good developers strike a balance: they provide the bare minimum code necessary to create a sense of a specific reality.
 
-## Faking It
+## Faking It (10 / 20 min)
 
 [Display General Assembly on Google Maps.](https://www.google.com/maps/place/General+Assembly+Washington+DC/@38.9048728,-77.0339908,17z/data=!4m2!3m1!1s0x89b7b7bfc2a12169:0x21c1233b00cff054)
 
@@ -76,7 +76,7 @@ On computers, if a tree falls in a forest and no-one's around to hear it, it rea
 
 ![Obligatory XKCD](computer_problems.png)
 
-## Exploration 2: Flying
+## Exploration 2: Flying (10 / 30 min)
 
 [Display this page.](examples/flying.html)
 
@@ -89,7 +89,9 @@ With your table answer these questions:
 #### Q. What visual cues tell you what each thing is?
 #### Q. As literally and technically as possible, describe what's happening on this page.
 
-## Exploration 3: If it looks like a duck...
+### Reflection
+
+## Exploration 3: If it looks like a duck... (10 / 40 min)
 
 [Display this page.](examples/duck.html)
 
@@ -104,7 +106,9 @@ With your table, discuss:
 
 - What is the minimum necessary for something to look like a duck?
 
-## User stories
+### Reflection
+
+## User stories (10 / 50 min)
 
 In "Agile" methodology, user stories describe every sequence of events a user may encounter when working with your app.
 
@@ -116,7 +120,9 @@ Then, you can create additional user stories.
 
 **You just created user stories for a duck.** That is: you defined what a user should experience in your creation in order for it to be considered a "complete" duck.
 
-### *User* stories versus *code* stories
+## BREAK (10 / 60 min)
+
+## *User* stories versus *code* stories (10 / 70 min)
 
 User stories describe what the user should be able to do. User stories **do not say anything about code.** "Code stories" is pseudocode.
 
@@ -128,7 +134,7 @@ This is true of relationships as well: If you constantly hurt people's feelings,
 
 This is also true in business: If Facebook's users all believe their data is secure, whether or not their data is *actually* secure doesn't impact Facebook's business at all. *Actually* keeping your data secure is secondary to making it *look* secure: it's a means to an end. In order to maximize profit, Facebook will do the bare minimum necessary to ensure its users continue to believe their data is secure.
 
-## We Do: User Stories for Concentration
+## We Do: User Stories for Concentration (20 / 90 min)
 
 My first stab at the user stories for the game of concentration:
 
@@ -173,11 +179,11 @@ When a div is clicked
         Both revealed divs' values are hidden
 ```
 
-## You Do: User Stories for [Final Countdown](https://github.com/ga-wdi-exercises/final-countdown) (20 minutes)
+## You Do: User Stories for [Final Countdown](https://github.com/ga-wdi-exercises/final-countdown) (20 / 110 min)
 
 Without looking at the prompt for Final Countdown, create user stories for it and convert them to code stories.
 
-## You Do: User Stories for ATM (20 minutes)
+## You Do: User Stories for ATM (20 / 130 min)
 
 [ATM application](https://github.com/ga-wdi-exercises/atm)
 
