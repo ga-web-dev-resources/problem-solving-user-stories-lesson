@@ -156,3 +156,16 @@ When a div is clicked
       If the other revealed div has a different value
         Both revealed divs' values are hidden
 ```
+
+## You Do: User Stories for [Final Countdown](https://github.com/ga-wdi-exercises/final-countdown) (20 minutes)
+
+Without looking at the prompt for Final Countdown, create user stories for it and convert them to code stories.
+
+## You Do: User Stories for ATM (20 minutes)
+
+[ATM application](https://github.com/ga-wdi-exercises/atm)
+
+## Resources
+
+- [Further "faking it" with old school graphics: a fascinating YouTube video](https://www.youtube.com/watch?v=Tfh0ytz8S0k)
+- [How to wireframe](https://www.gliffy.com/uses/wireframe-software/)
