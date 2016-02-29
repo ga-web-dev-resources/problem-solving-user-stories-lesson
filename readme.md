@@ -179,6 +179,25 @@ When a div is clicked
         Both revealed divs' values are hidden
 ```
 
+These are some keywords you might find yourself writing in your user stories and pseudocode. I've taken a stab at what their counterparts in "real" code might be.
+
+Take these with a grain of salt: there are many, many more ways to "hide" something than with `display:hide`.
+
+| English | Code |
+| --- | --- |
+| when | addEventListener |
+| if | if |
+| otherwise | else |
+| all of | forEach |
+| I have | var |
+| It has | object.property |
+| It can | object.method |
+| Nothing happens | ... |
+| show | display: block |
+| hide | display: none |
+| a / an | object |
+| plural(s) | array |
+
 ## You Do: User Stories for [Final Countdown](https://github.com/ga-wdi-exercises/final-countdown) (20 / 110 min)
 
 Without looking at the prompt for Final Countdown, create user stories for it and convert them to code stories.
