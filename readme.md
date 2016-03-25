@@ -152,6 +152,10 @@ This is also true in business: If Facebook's users all believe their data is sec
 
 ## We Do: User Stories for Concentration (20 / 90 min)
 
+[Concentration](http://www.mathsisfun.com/games/memory/)
+
+Let's create some user stories for Concentration Together.
+
 My first stab at the user stories for the game of concentration:
 
 - When the user begins a game, the cards are face-down
@@ -159,14 +163,14 @@ My first stab at the user stories for the game of concentration:
 - If two cards are face-up, and they match, the user leaves them face-up
 - If two cards are face-up, and they don't match, the user turns them face-down
 
-Now I'll start moving my user stories toward being code stories. To do this, I'll define some key *things* and *actions* in my user stories. For each one, I need to consider what the bare minimum is to achieve this effect:
+Now we'll start moving my user stories toward being code stories. To do this, We'll define some key *things* and *actions* in my user stories. For each one, We need to consider what the bare minimum is to achieve this effect:
 
 | User story | Code story |
 | --- | --- |
 | Begins a game | The page loads |
 | Card | A div |
-| Face-down | The div has no text |
-| Face-up | The div has text |
+| Face-down | The div has no text/image |
+| Face-up | The div has text/image |
 | Turn over | A card is clicked |
 | Match | Two divs have the same text |
 | Leaves them | Nothing happens |
