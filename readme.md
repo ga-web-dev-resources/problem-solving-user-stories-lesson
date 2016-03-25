@@ -174,7 +174,7 @@ Now we'll start moving my user stories toward being code stories. To do this, We
 | Face-down | The div has no text/image |
 | Face-up | The div has text/image |
 | Turn over | A card is clicked |
-| Match | Two divs have the same text |
+| Match | Two divs have the same text/image |
 | Leaves them | Nothing happens |
 
 ### Tips for User-to-Code Stories
