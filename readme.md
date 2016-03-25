@@ -265,14 +265,17 @@ In WDI, we're trying to get that MVP during project week as soon as possible. So
 
 When we start to write user stories, break these user stories in these 3 categories.
 
+## You Do: User Stories for ATM (20 / 130 min)
+[ATM application](https://github.com/ga-wdi-exercises/atm)
+
 ## Wireframing
 A wireframe is a simple blueprint/template/sketch/visual outline of the components of your website. Though there are some great digital wireframing tools out there, all you really need to make a wireframe for your personal use is a piece of paper and something to write with.
 
 - Curious to learn more about wireframes? Ask a UXDI student!
 
-## You Do: User Stories for ATM (20 / 130 min)
+## Scheduling
 
-[ATM application](https://github.com/ga-wdi-exercises/atm)
+When planning these sprints, set concrete goals for yourself. I'm going to achieve X by 12:30 so that I can get started on Y after lunch. I will finish Y by close of business so that I can start on Z. You could scale even further than that.
 
 ## You do: User Stories for your Project
 
