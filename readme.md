@@ -36,9 +36,7 @@ This is going to be a code-free "think like a programmer" class. Please close yo
 
 ## Re-framing (5 / 10 min)
 
-We try to code things that reflect the real world. Apple gave my computer a desktop and folders. Mario gave me a universe to run around in. For your [projects](https://github.com/ga-dc/wdi8-project1-gallery), several of you made webpages that looked like a wooden table with playing cards on it.
-
-I saw several students Googling "how to flip a card" in Javascript, and getting bogged down in 3D engines and all sorts of very complicated things.
+We try to code things that reflect the real world. Apple gave my computer a desktop and folders. Mario gave me a universe to run around in.
 
 The more you try to stay in reality when coding, the more difficult coding can become. This is the same with writing books and poetry and painting: if you try to be 100% realistic, you will never finish.
 
@@ -56,7 +54,7 @@ We have a perception of moving around a map, like we would in real life. But to 
 
 What's *really* happening is that Google is showing a tiny portion of the world map. When the user clicks and drags the mouse a certain amount, Google loads an additional tiny portion of the map.
 
-![Beta Brite](betabrite.jpg)
+![Beta Brite](never_give_up.gif)
 
 ### The text on this sign isn't *actually* moving.
 
@@ -67,6 +65,8 @@ Small lights are turning on and off in a way that creates the illusion of moving
 ### What's behind Mario?
 
 Nothing. Not even nothing. That's like asking what's outside our Universe.
+
+If we turn Mario around, sure, there appears to be something behind him because we turned him around! But there just pixels on a screen that render based on actions.
 
 The view of Mario's universe is created as it's necessary.
 
@@ -118,7 +118,23 @@ Then, you can create additional user stories.
 
 > This strongly correlates to test-driven development (TDD), which we'll talk more about in future weeks.
 
-**You just created user stories for a duck.** That is: you defined what a user should experience in your creation in order for it to be considered a "complete" duck.
+**You just created some tentative user stories for a duck.** That is: you defined what a user should experience in your creation in order for it to be considered a "complete" duck.
+
+The convention that developers like to follow for user stories looks like this example of a facebook user story:
+
+As a user, I should be able to update my status, so that I can tell my friends and family
+
+Or this format:
+
+```
+As a <role>, I should be able to <goal>, so that <reason>
+```
+
+As a general rule, user stories should be as granular and succinct as possible. A bad example:
+
+```
+This application should have a really good social networking component.
+```
 
 ## BREAK (10 / 60 min)
 
@@ -203,7 +219,7 @@ Take these with a grain of salt: there are many, many more ways to "hide" someth
 
 ## Keep in mind...
 
-![DTROTFO](owl.jpg)
+![DTROTFO](owl.jpeg)
 
 #### There is no owl.
 
@@ -214,13 +230,42 @@ There's no right way to do user stories. Their purpose is:
 
 If your method of writing user stories isn't doing any of those, do it differently.
 
-## You Do: User Stories for [Final Countdown](https://github.com/ga-wdi-exercises/final-countdown) (20 / 110 min)
+## Not the Olympics - Bronze/Silver/Gold
+In the Olympics, we strive for gold. In agile software devlopment, we strive for the bronze in order to reach the gold. That is not to say we set low expectations for ourselves. But rather, the gold should be just be an extension of the bronze achievement.
 
-Without looking at the prompt for Final Countdown, create user stories for it and convert them to code stories.
+### MVP - Minimum Viable Product
+The version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.
+
+[Minimum Viable Product](https://www.youtube.com/watch?v=1FoCbbbcYT8)
+
+In the context of the WDI student, MVP is a bit different, but there are a lot of things that correlate. Create a product that does what the prompt asks you. Whatever that takes, get the thing to work the way you intended first. Then add features and other cool things!
+
+### Bronze - Your MVP
+- The bare necessities to be functional and meet requirements.
+  - In WDI: does it meet the criteria for the project?
+  - In the real world: does it meet the business requirements in order to start an effective feedback loop
+
+### Silver
+- Improve user experience
+  - in WDI: one cool feature! Enhancing what you learned in class
+  - in the real world: What can we push to the next iteration? Where can we add value?
+
+### Gold
+- Nice to haves
+  - in WDI: push beyond what you've learned in class
+  - in the real world: next steps to maximize ROI
+
+> In the real world, often things that are gold transition into their own subsets of bronze/silver/gold
+
+In WDI, we're trying to get that MVP during project week as soon as possible. So that we can start to think about improvements and polishing. That is not to say that we should rush the bronze. Make sure that the code is well written, maintainable, and functional before thinking about moving to the Silver implementation.
+
+When we start to write user stories, break these user stories in these 3 categories.
 
 ## You Do: User Stories for ATM (20 / 130 min)
 
 [ATM application](https://github.com/ga-wdi-exercises/atm)
+
+## You do: User Stories for your Project
 
 ## Resources
 
