@@ -122,15 +122,17 @@ Then, you can create additional user stories.
 
 The convention that developers like to follow for user stories looks like this example of a facebook user story:
 
-As a user, I should be able to update my status, so that I can tell my friends and family
+```
+As a user, I want to update my status, so that my friends and family can see what I'm thinking or doing.
+```
 
 Or this format:
 
 ```
-As a <role>, I should be able to <goal>, so that <reason>
+As a <role>, I want to <goal>, so that <reason>
 ```
 
-As a general rule, user stories should be as granular and succinct as possible. A bad example:
+As a general rule, user stories should be as granular and specific as possible. A bad example:
 
 ```
 This application should have a really good social networking component.
@@ -158,10 +160,10 @@ Let's create some user stories for Concentration Together.
 
 My first stab at the user stories for the game of concentration:
 
-- When the user begins a game, the cards are face-down
-- The user can turn over cards
-- If two cards are face-up, and they match, the user leaves them face-up
-- If two cards are face-up, and they don't match, the user turns them face-down
+- As a user, I want to see all cards starting face down, so that I can pick from any card.
+- As a user, I want to click on a card and see the front, so that I can look for matching cards.
+- As a user, I want to flip over a second card, so the I can try to get a match with the first.
+- As a user, I want to see my matches remain flipped face up, so that I can focus on the remaining cards.
 
 Now we'll start moving my user stories toward being code stories. To do this, We'll define some key *things* and *actions* in my user stories. For each one, We need to consider what the bare minimum is to achieve this effect:
 
@@ -234,6 +236,8 @@ There's no right way to do user stories. Their purpose is:
 
 If your method of writing user stories isn't doing any of those, do it differently.
 
+> While there is certainly no specific "right" way. There are certainly wrong ways to do user stories, which will fail to communicate your ideas, and fail to help you scope and understand your development efforts. Remember the guidelines from earlier in the lesson plan.
+
 ## Not the Olympics - Bronze/Silver/Gold
 In the Olympics, we strive for gold. In agile software devlopment, we strive for the bronze in order to reach the gold. That is not to say we set low expectations for ourselves. But rather, the gold should be just be an extension of the bronze achievement.
 
@@ -272,6 +276,8 @@ When we start to write user stories, break these user stories in these 3 categor
 A wireframe is a simple blueprint/template/sketch/visual outline of the components of your website. Though there are some great digital wireframing tools out there, all you really need to make a wireframe for your personal use is a piece of paper and something to write with.
 
 - Curious to learn more about wireframes? Ask a UXDI student!
+- Checkout [this tutorial](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399) on wireframing
+- Also checkout [these resources](http://mashable.com/2010/07/15/wireframing-tools/#y96DOFsQZgqb) if you want a free tool for wireframing if you don't like paper and pen.
 
 ## Scheduling
 
