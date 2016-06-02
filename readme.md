@@ -9,32 +9,46 @@
 
 This is going to be a code-free "think like a programmer" class. Please close your computers. You will not need them for the duration of the class.
 
-## Exploration 1: Button (5 / 5 min)
+## Exploration 1: Button (5 minutes / 0:05)
 
 [Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/button.html)
 
-#### Q. What are we looking at?
-> A button being pushed.
+<details>
+  <summary>What are we looking at?</summary>
 
-#### Q. Are we looking at a *real life* button being pushed?
-> Obviously not.
+  > A button being pushed.
 
-#### Q. So how do you know it's a button?
-- It's red
-- It's round
-- It's shaded
-- It says "push"
+</details>
 
-### You Do (1 minute)
+<details>
+  <summary>Are we looking at a *real life* button being pushed?</summary>
 
-#### With the people at your table, identify what *specifically* tells you when the button has been "pushed".
+  > Obviously not.
+
+</details>
+
+<details>
+  <summary>So how do you know it's a button?</summary>
+
+  - It's red
+  - It's round
+  - It's shaded
+  - It says "push"
+
+</details>
+
+### You Do: Clicking The Button
+
+> 1 minute exercise. 4 minutes review.
+
+With the people at your table, identify what *specifically* tells you when the button has been "pushed".
 
 - The bottom border shrinks
 - The top border grows
 - The background color darkens
 - The text moves down a little
 
-## Re-framing (5 / 10 min)
+## Re-framing (5 minutes / 0:10)
 
 We try to code things that reflect the real world. Apple gave my computer a desktop and folders. Mario gave me a universe to run around in.
 
@@ -42,7 +56,9 @@ The more you try to stay in reality when coding, the more difficult coding can b
 
 Good developers strike a balance: they provide the bare minimum code necessary to create a sense of a specific reality.
 
-## Faking It (10 / 20 min)
+<!-- AM: Can reference previous students being "too real" on Project 1 card games. -->
+
+## Faking It (10 minutes / 0:20)
 
 [Display General Assembly on Google Maps.](https://www.google.com/maps/place/General+Assembly+Washington+DC/@38.9048728,-77.0339908,17z/data=!4m2!3m1!1s0x89b7b7bfc2a12169:0x21c1233b00cff054)
 
@@ -70,45 +86,52 @@ If we turn Mario around, sure, there appears to be something behind him because 
 
 The view of Mario's universe is created as it's necessary.
 
-On computers, if a tree falls in a forest and no-one's around to hear it, it really *doesn't* make a sound.
+With computers, if a tree falls in a forest and no-one's around to hear it, it really *doesn't* make a sound. It doesn't even exist!
 
 ### Computers are just little boxes of lights
 
 ![Obligatory XKCD](computer_problems.png)
 
-## Exploration 2: Flying (10 / 30 min)
+## Exploration 2: Flying
 
 [Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/flying.html)
 
-### You Do (5 minutes)
+### You Do (10 minutes/ 0:30)
 
-With your table answer these questions:
+> 5 minutes exercise. 5 minutes review.
 
-#### Q. What are we looking at?
-#### Q. What's the nearest thing on the page? Furthest?
-#### Q. What visual cues tell you what each thing is?
-#### Q. As literally and technically as possible, describe what's happening on this page.
+With your table answer these questions...
+
+- What are we looking at?
+- What's the nearest thing on the page? Furthest?
+- What visual cues tell you what each thing is?
+- As literally and technically as possible, describe what's happening on this page.
 
 ### Reflection
 
-## Exploration 3: If it looks like a duck... (10 / 40 min)
-
+## Exploration 3: If it looks like a duck...
 [Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/duck.html)
 
-### You Do (3 minutes)
+### You Do (5 minutes / 0:35)
 
-With your table, discuss:
+> 3 minutes exercise. 2 minutes review.
+
+With your table, discuss...
 
 - Which of these looks most like a duck?
 - What do the duck-looking ones have in common?
 
-### You Do (3 minutes)
+### You Do (5 minutes / 0:40)
+
+> 3 minutes exercise. 2 minutes review.
+
+Once again with your table, discuss...
 
 - What is the minimum necessary for something to look like a duck?
 
 ### Reflection
 
-## User stories (10 / 50 min)
+## User Stories (10 minutes/ 0:50)
 
 In "Agile" methodology, user stories describe every sequence of events a user may encounter when working with your app.
 
@@ -116,17 +139,17 @@ You brainstorm a bunch of user stories, and then select the ones that are most e
 
 Then, you can create additional user stories.
 
-> This strongly correlates to test-driven development (TDD), which we'll talk more about in future weeks.
+> This strongly correlates to test-driven development (TDD), which you will learn about this afternoon.
 
 **You just created some tentative user stories for a duck.** That is: you defined what a user should experience in your creation in order for it to be considered a "complete" duck.
 
-The convention that developers like to follow for user stories looks like this example of a facebook user story:
+The convention that developers like to follow for user stories looks like this example of a Facebook user story...
 
 ```
 As a user, I want to update my status, so that my friends and family can see what I'm thinking or doing.
 ```
 
-Or this format:
+Or this format...
 
 ```
 As a <role>, I want to <goal>, so that <reason>
@@ -138,9 +161,9 @@ As a general rule, user stories should be as granular and specific as possible. 
 This application should have a really good social networking component.
 ```
 
-## BREAK (10 / 60 min)
+## BREAK (10 minutes / 1:00)
 
-## *User* stories versus *code* stories (10 / 70 min)
+## *User* stories versus *code* stories (10 minutes / 1:10)
 
 User stories describe what the user should be able to do. User stories **do not say anything about code.** "Code stories" is pseudocode.
 
@@ -152,20 +175,26 @@ This is true of relationships as well: If you constantly hurt people's feelings,
 
 This is also true in business: If Facebook's users all believe their data is secure, whether or not their data is *actually* secure doesn't impact Facebook's business at all. *Actually* keeping your data secure is secondary to making it *look* secure: it's a means to an end. In order to maximize profit, Facebook will do the bare minimum necessary to ensure its users continue to believe their data is secure.
 
-## We Do: User Stories for Concentration (20 / 90 min)
+## We Do: User-to-Code Stories for Concentration (20 minutes / 1:30)
 
 [Concentration](http://www.mathsisfun.com/games/memory/)
 
 Let's create some user stories for Concentration Together.
 
-My first stab at the user stories for the game of concentration:
+<details>
+  <summary><strong>Some example user stories for Concetration are...</strong></summary>
 
-- As a user, I want to see all cards starting face down, so that I can pick from any card.
-- As a user, I want to click on a card and see the front, so that I can look for matching cards.
-- As a user, I want to flip over a second card, so the I can try to get a match with the first.
-- As a user, I want to see my matches remain flipped face up, so that I can focus on the remaining cards.
+  <br/>
 
-Now we'll start moving my user stories toward being code stories. To do this, We'll define some key *things* and *actions* in my user stories. For each one, We need to consider what the bare minimum is to achieve this effect:
+  - As a user, I want to see all cards starting face down, so that I can pick from any card.
+  - As a user, I want to click on a card and see the front, so that I can look for matching cards.
+  - As a user, I want to flip over a second card, so the I can try to get a match with the first.
+  - As a user, I want to see my matches remain flipped face up, so that I can focus on the remaining cards.
+
+</details>
+<br/>
+
+Now we'll start moving my user stories toward being code stories. To do this, We'll define some key *things* and *actions* in my user stories. For each one, we need to consider what the bare minimum is to achieve this effect...
 
 | User story | Code story |
 | --- | --- |
@@ -180,16 +209,16 @@ Now we'll start moving my user stories toward being code stories. To do this, We
 ### Tips for User-to-Code Stories
 
 - If a user story is "nothing happens", it has no code story. There is no code for "nothing happens".
-- My instinct to make a div go from "has text" to "no text" is to delete the text. But deleting and then replacing data is time-consuming and annoying. Why not just hide the div's text?
-- Similarly, my instinct to make a click go from "does something" to "does nothing" is to remove its event listener. But deleting and replacing event listeners is time-consuming and annoying. Why not just put an `if` inside the event listener so it always fires, but only does stuff under certain conditions?
+- Your first instinct to make a div go from "has text" to "no text" may be to delete the text. But deleting and then replacing data is time-consuming and annoying. Why not just hide the div's text?
+- Similarly, your first instinct to make a click go from "does something" to "does nothing" may be to remove its event listener. But deleting and replacing event listeners is time-consuming and annoying. Why not just put an `if` inside the event listener so it always fires, but only does stuff under certain conditions?
 
-With this in mind, my user stories become:
+With this in mind, our user stories become...
 
 - When the user loads the page, the values on all divs are hidden
 - If the user clicks on a div with a hidden value, the value is revealed
 - If the values of two divs are revealed, and their values are not the same, their values are hidden
 
-Now I can turn my user stories into pseudocode. I'll use "when" for events, which will remind me to use event listeners:
+Now I can turn my user stories into pseudocode. I'll use "when" for events, which will remind me to use event listeners...
 
 ```
 When the page loads, the values on all divs are hidden
@@ -229,7 +258,7 @@ Take these with a grain of salt: there are many, many more ways to "hide" someth
 
 #### There is no owl.
 
-There's no right way to do user stories. Their purpose is:
+There's no right way to do user stories. Their purpose is...
 - To help you flesh out ideas
 - To help you streamline your coding process and avoid unnecessary work
 - To help you communicate what you're doing to non-coders
@@ -239,9 +268,11 @@ If your method of writing user stories isn't doing any of those, do it different
 > While there is certainly no specific "right" way. There are certainly wrong ways to do user stories, which will fail to communicate your ideas, and fail to help you scope and understand your development efforts. Remember the guidelines from earlier in the lesson plan.
 
 ## Not the Olympics - Bronze/Silver/Gold
+
 In the Olympics, we strive for gold. In agile software devlopment, we strive for the bronze in order to reach the gold. That is not to say we set low expectations for ourselves. But rather, the gold should be just be an extension of the bronze achievement.
 
 ### MVP - Minimum Viable Product
+
 The version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.
 
 [Minimum Viable Product](https://www.youtube.com/watch?v=1FoCbbbcYT8)
@@ -249,31 +280,38 @@ The version of a new product which allows a team to collect the maximum amount o
 In the context of the WDI student, MVP is a bit different, but there are a lot of things that correlate. Create a product that does what the prompt asks you. Whatever that takes, get the thing to work the way you intended first. Then add features and other cool things!
 
 ### Bronze - Your MVP
-- The bare necessities to be functional and meet requirements.
-  - In WDI: does it meet the criteria for the project?
-  - In the real world: does it meet the business requirements in order to start an effective feedback loop
+
+The bare necessities to be functional and meet requirements.
+- In WDI: does it meet the criteria for the project?
+- In the real world: does it meet the business requirements in order to start an effective feedback loop?
 
 ### Silver
-- Improve user experience
-  - in WDI: one cool feature! Enhancing what you learned in class
-  - in the real world: What can we push to the next iteration? Where can we add value?
+
+Improve user experience
+- In WDI: One cool feature! Enhancing what you learned in class.
+- In the real world: What can we push to the next iteration? Where can we add value?
 
 ### Gold
-- Nice to haves
-  - in WDI: push beyond what you've learned in class
-  - in the real world: next steps to maximize ROI
 
-> In the real world, often things that are gold transition into their own subsets of bronze/silver/gold
+"Nice-to-haves"
+- In WDI: push beyond what you've learned in class.
+- In the real world: next steps to maximize ROI.
+
+> In the real world, individual items under any of the above categories may have their own bronze, silver and gold subdivisions.
 
 In WDI, we're trying to get that MVP during project week as soon as possible. So that we can start to think about improvements and polishing. That is not to say that we should rush the bronze. Make sure that the code is well written, maintainable, and functional before thinking about moving to the Silver implementation.
 
-When we start to write user stories, break these user stories in these 3 categories.
+When we start to write user stories, break these user stories in these three categories.
 
-## You Do: User Stories for ATM (20 / 130 min)
+## You Do: User Stories for ATM (15 minutes / 1:45)
+
+> 10 minutes exercise. 5 minutes review.
+
 [ATM application](https://github.com/ga-wdi-exercises/atm)
 
 ## Wireframing
-A wireframe is a simple blueprint/template/sketch/visual outline of the components of your website. Though there are some great digital wireframing tools out there, all you really need to make a wireframe for your personal use is a piece of paper and something to write with.
+
+A wireframe is a blueprint/sketch/visual outline of the components of your website. Though there are some great digital wireframing tools out there, all you really need to make a wireframe for your personal use is pen and paper.
 
 - Curious to learn more about wireframes? Ask a UXDI student!
 - Checkout [this tutorial](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399) on wireframing
@@ -283,7 +321,10 @@ A wireframe is a simple blueprint/template/sketch/visual outline of the componen
 
 When planning these sprints, set concrete goals for yourself. I'm going to achieve X by 12:30 so that I can get started on Y after lunch. I will finish Y by close of business so that I can start on Z. You could scale even further than that.
 
-## You do: User Stories for your Project
+## You Do: User Stories For Your Project (10 minutes)
+
+<!-- AM: Is it okay to give them the prompt for Project 1? -->
+<!-- AM: Maybe can not say it's for Project 1 but list the actual prompts. -->
 
 ## Resources
 
