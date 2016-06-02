@@ -66,6 +66,8 @@ Good developers strike a balance: they provide the bare minimum code necessary t
 
 ## Faking It (10 minutes / 0:20)
 
+Sometimes that means "faking it." By that we mean giving the user the sense that we've done a lot when we've instead, relatively speaking, done very little. Take Google Maps for example... 
+
 [Display General Assembly on Google Maps.](https://www.google.com/maps/place/General+Assembly+Washington+DC/@38.9048728,-77.0339908,17z/data=!4m2!3m1!1s0x89b7b7bfc2a12169:0x21c1233b00cff054)
 
 ### What is south of this image?
