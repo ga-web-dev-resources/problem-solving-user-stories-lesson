@@ -7,7 +7,11 @@
 
 ## Framing
 
-This is going to be a code-free "think like a programmer" class. Please close your computers. You will not need them for the duration of the class.
+**"Where Do I Start?"** That's one of the most common questions instructors are asked during the first few weeks of WDI. As a new developer, it's not necessarily easy to take an exercise or project prompt and take the first few steps towards completing it.
+
+Today's class is all about developing the mindset required to answer that question. In particular, we're going to be breaking down problems into smaller parts and using those to guide the planning and development process.
+
+**This is going to be a code-free "think like a programmer" class.** Please close your computers. You will not need them for the duration of the class.
 
 ## Exploration 1: Button (5 minutes / 0:05)
 
@@ -21,7 +25,7 @@ This is going to be a code-free "think like a programmer" class. Please close yo
 </details>
 
 <details>
-  <summary>Are we looking at a *real life* button being pushed?</summary>
+  <summary>Are we looking at a <em>real life</em> button being pushed?</summary>
 
   > Obviously not.
 
@@ -66,7 +70,7 @@ Good developers strike a balance: they provide the bare minimum code necessary t
 
 ## Faking It (10 minutes / 0:20)
 
-Sometimes that means "faking it." By that we mean giving the user the sense that we've done a lot when we've instead, relatively speaking, done very little. Take Google Maps for example... 
+Sometimes that means "faking it." By that we mean giving the user the sense that we've done a lot when we've instead, relatively speaking, done very little. Take Google Maps for example...
 
 [Display General Assembly on Google Maps.](https://www.google.com/maps/place/General+Assembly+Washington+DC/@38.9048728,-77.0339908,17z/data=!4m2!3m1!1s0x89b7b7bfc2a12169:0x21c1233b00cff054)
 
