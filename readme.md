@@ -90,7 +90,7 @@ Small lights are turning on and off in a way that creates the illusion of moving
 
 ![Super Mario](mario.jpg)
 
-### What's behind Mario?
+### What's Behind Mario?
 
 Nothing. Not even nothing. That's like asking what's outside our Universe.
 
@@ -104,11 +104,13 @@ With computers, if a tree falls in a forest and no-one's around to hear it, it r
 
 ![Obligatory XKCD](computer_problems.png)
 
+What we're ultimately doing as web developers is arranging little pixels of light in a way that means something to the user, albeit in a more abstracted way using tools like HTML, CSS and Javascript.
+
 ## Exploration 2: Flying
 
 [Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/flying.html)
 
-### You Do (10 minutes/ 0:30)
+### You Do (10 minutes / 0:30)
 
 > 5 minutes exercise. 5 minutes review.
 
@@ -139,7 +141,7 @@ With your table, discuss...
 
 Once again with your table, discuss...
 
-- What is the minimum necessary for something to look like a duck?
+- What are the minimum requirements for something to look like a duck?
 
 ### Reflection
 
@@ -187,11 +189,13 @@ This is true of relationships as well: If you constantly hurt people's feelings,
 
 This is also true in business: If Facebook's users all believe their data is secure, whether or not their data is *actually* secure doesn't impact Facebook's business at all. *Actually* keeping your data secure is secondary to making it *look* secure: it's a means to an end. In order to maximize profit, Facebook will do the bare minimum necessary to ensure its users continue to believe their data is secure.
 
+<!-- AM: Recent examples of security breaches? -->
+
 ## We Do: User-to-Code Stories for Concentration (20 minutes / 1:30)
 
 [Concentration](http://www.mathsisfun.com/games/memory/)
 
-Let's create some user stories for Concentration Together.
+Let's create some user stories for Concentration together.
 
 <details>
   <summary><strong>Some example user stories for Concetration are...</strong></summary>
