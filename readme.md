@@ -43,10 +43,16 @@ This is going to be a code-free "think like a programmer" class. Please close yo
 
 With the people at your table, identify what *specifically* tells you when the button has been "pushed".
 
-- The bottom border shrinks
-- The top border grows
-- The background color darkens
-- The text moves down a little
+<details>
+  <summary><strong>Some examples...</strong></summary>
+  <br/>
+
+  - The bottom border shrinks
+  - The top border grows
+  - The background color darkens
+  - The text moves down a little
+
+</details>
 
 ## Re-framing (5 minutes / 0:10)
 
