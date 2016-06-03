@@ -60,7 +60,7 @@ With the people at your table, identify what *specifically* tells you when the b
 
 ## Re-framing (5 minutes / 0:10)
 
-We try to code things that reflect the real world. Apple gave my computer a desktop and folders. Mario gave me a universe to run around in.
+We try to code things that reflect the real world. Here we create a pushed button that isn't actually a button. Apple makes our computer into a workstation by giving it a desktop and folders.
 
 The more you try to stay in reality when coding, the more difficult coding can become. This is the same with writing books and poetry and painting: if you try to be 100% realistic, you will never finish.
 
@@ -200,13 +200,14 @@ This application should have a really good social networking component.
 
 User stories describe what the user should be able to do. User stories **do not say anything about code.** "Code stories" is pseudocode.
 
-#### Q. Why should you write user stories before you write code stories?
+<details>
+  <summary><strong>Q. Why should you write user stories before you write code stories?</strong></summary
+  <br/>
 
-What's most important in a program is its perception by other people. What's second-most important is your code.
+  > What's most important in a program is its perception by other people. What's second-most important -- although still very important -- is your code. We need to anticipate users' needs as we code.
 
-This is true of relationships as well: If you constantly hurt people's feelings, the fact that your intentions are always good doesn't really make a difference.
-
-This is also true in business: If Facebook's users all believe their data is secure, whether or not their data is *actually* secure doesn't impact Facebook's business at all. *Actually* keeping your data secure is secondary to making it *look* secure: it's a means to an end. In order to maximize profit, Facebook will do the bare minimum necessary to ensure its users continue to believe their data is secure.
+  <br/>
+</details>
 
 ## We Do: User-to-Code Stories for Concentration (20 minutes / 1:30)
 
