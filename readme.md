@@ -347,8 +347,8 @@ For Project 1 you will be creating one of four games: Trivia, Flashcards, Concen
 
 Start doing the following...
 * Draw out a wireframe(s).
-* Create user-to-code stories.
-* Write pseudo-code out of your user-to-code stories.
+* Create code stories.
+* Start writing out some pseudocode.
 
 [Project 1 Prompts](https://github.com/ga-wdi-exercises/project1#project-choices)
 
