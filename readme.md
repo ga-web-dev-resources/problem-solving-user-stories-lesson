@@ -337,11 +337,22 @@ In WDI, we're trying to get that MVP during project week as soon as possible. So
 
 When we start to write user stories, break these user stories in these three categories.
 
-## You Do: User Stories for ATM (15 minutes / 1:45)
+## You Do: User Stories For Your Project (15 minutes / 1:45)
 
-> 10 minutes exercise. 5 minutes review.
+> 15 minutes exercise.
 
-[ATM application](https://github.com/ga-wdi-exercises/atm)
+For Project 1 you will be creating one of four games: Trivia, Flashcards, Concentration and War. Your task now is to create user stories for one of those four and separate them into bronze, silver and gold categories.
+
+#### Bonus
+
+Start doing the following...
+* Draw out a wireframe(s).
+* Create user-to-code stories.
+* Write pseudo-code out of your user-to-code stories.
+
+[Project 1](https://github.com/ga-wdi-exercises/project1)
+
+> We will be officially introducing Project 1 on Monday, so please save any project-specific questions until then. This exercise is meant to put you on better footing once it comes time to start working on this next week.
 
 ## Wireframing
 
@@ -354,11 +365,6 @@ A wireframe is a blueprint/sketch/visual outline of the components of your websi
 ## Scheduling
 
 When planning these sprints, set concrete goals for yourself. I'm going to achieve X by 12:30 so that I can get started on Y after lunch. I will finish Y by close of business so that I can start on Z. You could scale even further than that.
-
-## You Do: User Stories For Your Project (10 minutes)
-
-<!-- AM: Is it okay to give them the prompt for Project 1? -->
-<!-- AM: Maybe can not say it's for Project 1 but list the actual prompts. -->
 
 ## Resources
 
