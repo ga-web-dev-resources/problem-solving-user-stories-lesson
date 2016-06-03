@@ -43,7 +43,7 @@ Today's class is all about developing the mindset required to answer that questi
 
 ### You Do: Clicking The Button
 
-> 1 minute exercise. 4 minutes review.
+> 2 minute exercise. 3 minutes review.
 
 With the people at your table, identify what *specifically* tells you when the button has been "pushed".
 
@@ -66,11 +66,9 @@ The more you try to stay in reality when coding, the more difficult coding can b
 
 Good developers strike a balance: they provide the bare minimum code necessary to create a sense of a specific reality.
 
-<!-- AM: Can reference previous students being "too real" on Project 1 card games. -->
-
 ## Faking It (10 minutes / 0:20)
 
-Sometimes that means "faking it." By that we mean giving the user the sense that we've done a lot when we've instead, relatively speaking, done very little. Take Google Maps for example...
+Sometimes that means "faking it." By that we mean giving the user the sense that we've replicated a real-life experience when, relatively speaking, we've actually done very little. Take Google Maps for example...
 
 [Display General Assembly on Google Maps.](https://www.google.com/maps/place/General+Assembly+Washington+DC/@38.9048728,-77.0339908,17z/data=!4m2!3m1!1s0x89b7b7bfc2a12169:0x21c1233b00cff054)
 
@@ -82,15 +80,15 @@ We have a perception of moving around a map, like we would in real life. But to 
 
 What's *really* happening is that Google is showing a tiny portion of the world map. When the user clicks and drags the mouse a certain amount, Google loads an additional tiny portion of the map.
 
-![Beta Brite](never_give_up.gif)
-
 ### The text on this sign isn't *actually* moving.
+
+![Beta Brite](never_give_up.gif)
 
 Small lights are turning on and off in a way that creates the illusion of moving.
 
-![Super Mario](mario.jpg)
-
 ### What's Behind Mario?
+
+![Super Mario](mario.jpg)
 
 Nothing. Not even nothing. That's like asking what's outside our Universe.
 
@@ -104,7 +102,7 @@ With computers, if a tree falls in a forest and no-one's around to hear it, it r
 
 ![Obligatory XKCD](computer_problems.png)
 
-What we're ultimately doing as web developers is arranging little pixels of light in a way that means something to the user, albeit in a more abstracted way using tools like HTML, CSS and Javascript.
+What we're ultimately doing as web developers is arranging little pixels of light in the browser so that they appear as something of value to the user.
 
 ## Exploration 2: Flying
 
@@ -122,6 +120,17 @@ With your table answer these questions...
 - As literally and technically as possible, describe what's happening on this page.
 
 ### Reflection
+
+<details>
+  <summary><strong>Some thoughts...</strong></summary>
+  <br/>
+
+  - The clouds are perceived as clouds because they are round and white. They appear to be at different distances because of size and opacity. They appear to be moving because we are changing their position on the page from left to right.
+  - The bird is a bird because of its (literal) v-shape and it is flying because its vertical position on the page goes from up to down.
+  - Together, the first two bullet points create the illusion that a bird is flying through the sky. There is, of course, nothing in our code that alludes to the notion of a bird or sky.
+
+  <br/>
+</details>
 
 ## Exploration 3: If it looks like a duck...
 [Display this page.](http://ga-wdi-lessons.github.io/user-stories-and-problem-modeling/examples/duck.html)
@@ -144,6 +153,16 @@ Once again with your table, discuss...
 - What are the minimum requirements for something to look like a duck?
 
 ### Reflection
+
+<details>
+  <summary><strong>Some thoughts...</strong></summary>
+  <br/>
+
+  - While we all had initial thoughts as to which image looks most duck-like, we were able to come to an agreement on a certain set of properties that, if met, would qualify something to look like a duck.
+  - We could add other properties -- feathers, plumage, a quack -- to make something look even more like a duck. But they are not essential for something to qualify as duck-like.
+
+  <br/>
+</details>
 
 ## User Stories (10 minutes/ 0:50)
 
@@ -189,13 +208,11 @@ This is true of relationships as well: If you constantly hurt people's feelings,
 
 This is also true in business: If Facebook's users all believe their data is secure, whether or not their data is *actually* secure doesn't impact Facebook's business at all. *Actually* keeping your data secure is secondary to making it *look* secure: it's a means to an end. In order to maximize profit, Facebook will do the bare minimum necessary to ensure its users continue to believe their data is secure.
 
-<!-- AM: Recent examples of security breaches? -->
-
 ## We Do: User-to-Code Stories for Concentration (20 minutes / 1:30)
 
 [Concentration](http://www.mathsisfun.com/games/memory/)
 
-Let's create some user stories for Concentration together.
+**Spend two minutes creating some user stories for Concentration.** Then we'll go over them together.
 
 <details>
   <summary><strong>Some example user stories for Concetration are...</strong></summary>
@@ -210,7 +227,7 @@ Let's create some user stories for Concentration together.
 </details>
 <br/>
 
-Now we'll start moving my user stories toward being code stories. To do this, We'll define some key *things* and *actions* in my user stories. For each one, we need to consider what the bare minimum is to achieve this effect...
+Now we'll start moving these user stories toward being code stories. To do this, We'll define some key *things* and *actions* in my user stories. For each one, we need to consider what the bare minimum is to achieve this effect...
 
 | User story | Code story |
 | --- | --- |
@@ -221,6 +238,14 @@ Now we'll start moving my user stories toward being code stories. To do this, We
 | Turn over | A card is clicked |
 | Match | Two divs have the same text/image |
 | Leaves them | Nothing happens |
+
+Using this table, our first user story...
+
+> As a user, I want to see all cards starting face down, so that I can pick from any card.
+
+...looks like this as a code story...
+
+> As a user, when the page loads all `<div>`s should not be displaying text/image, so that I can click on any `<div>`.
 
 ### Tips for User-to-Code Stories
 
