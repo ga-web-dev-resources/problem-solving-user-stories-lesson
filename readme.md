@@ -164,7 +164,7 @@ Once again with your table, discuss...
   <br/>
 </details>
 
-## User Stories (10 minutes/ 0:50)
+## User Stories (10 minutes / 0:50)
 
 User stories describe every sequence of events a user may encounter when working with your app.
 
