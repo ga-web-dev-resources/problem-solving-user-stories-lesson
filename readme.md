@@ -213,10 +213,10 @@ User stories describe what the user should be able to do. User stories **do not 
 
 [Concentration](http://www.mathsisfun.com/games/memory/)
 
-**Spend two minutes creating some user stories for Concentration.** Then we'll go over them together.
+**Spend 5 minutes creating some user stories for Concentration.** Then we'll go over them together.
 
 <details>
-  <summary><strong>Some example user stories for Concetration are...</strong></summary>
+  <summary><strong>Some example user stories for Concentration are...</strong></summary>
 
   <br/>
 
