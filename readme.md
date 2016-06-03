@@ -240,14 +240,6 @@ Now we'll start moving these user stories toward being code stories. To do this,
 | Match | Two divs have the same text/image |
 | Leaves them | Nothing happens |
 
-Using this table, our first user story...
-
-> As a user, I want to see all cards starting face down, so that I can pick from any card.
-
-...looks like this as a code story...
-
-> As a user, when the page loads all `<div>`s should not be displaying text/image, so that I can click on any `<div>`.
-
 ### Tips for User-to-Code Stories
 
 - If a user story is "nothing happens", it has no code story. There is no code for "nothing happens".
