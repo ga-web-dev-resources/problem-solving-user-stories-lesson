@@ -350,7 +350,7 @@ Start doing the following...
 * Create user-to-code stories.
 * Write pseudo-code out of your user-to-code stories.
 
-[Project 1](https://github.com/ga-wdi-exercises/project1)
+[Project 1 Prompts](https://github.com/ga-wdi-exercises/project1#project-choices)
 
 > We will be officially introducing Project 1 on Monday, so please save any project-specific questions until then. This exercise is meant to put you on better footing once it comes time to start working on this next week.
 
