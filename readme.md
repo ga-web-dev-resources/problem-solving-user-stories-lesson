@@ -62,7 +62,7 @@ With the people at your table, identify what *specifically* tells you when the b
 
 We try to code things that reflect the real world. Here we create a pushed button that isn't actually a button. Apple makes our computer into a workstation by giving it a desktop and folders.
 
-The more you try to stay in reality when coding, the more difficult coding can become. This is the same with writing books and poetry and painting: if you try to be 100% realistic, you will never finish.
+The more you try to stay in reality when coding, however, the more difficult coding can become. This is the same with writing books and poetry and painting: if you try to be 100% realistic, you will never finish.
 
 Good developers strike a balance: they provide the bare minimum code necessary to create a sense of a specific reality.
 
@@ -166,7 +166,7 @@ Once again with your table, discuss...
 
 ## User Stories (10 minutes/ 0:50)
 
-In "Agile" methodology, user stories describe every sequence of events a user may encounter when working with your app.
+User stories describe every sequence of events a user may encounter when working with your app.
 
 You brainstorm a bunch of user stories, and then select the ones that are most essential. When a user can complete all of these stories using your app, your app is considered complete.
 
