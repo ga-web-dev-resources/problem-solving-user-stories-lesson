@@ -172,8 +172,6 @@ You brainstorm a bunch of user stories, and then select the ones that are most e
 
 Then, you can create additional user stories.
 
-> This strongly correlates to test-driven development (TDD), which you will learn about this afternoon.
-
 **You just created some tentative user stories for a duck.** That is: you defined what a user should experience in your creation in order for it to be considered a "complete" duck.
 
 The convention that developers like to follow for user stories looks like this example of a Facebook user story...
