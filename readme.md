@@ -196,7 +196,7 @@ This application should have a really good social networking component.
 
 ## *User* stories versus *code* stories (10 minutes / 1:10)
 
-User stories describe what the user should be able to do. User stories **do not say anything about code.** "Code stories" is pseudocode.
+User stories describe what the user should be able to do. User stories **do not say anything about code.** That's what code stories and pseudocode are for.
 
 <details>
   <summary><strong>Q. Why should you write user stories before you write code stories?</strong></summary
