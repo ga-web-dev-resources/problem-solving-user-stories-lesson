@@ -1,9 +1,30 @@
-# Problem Modeling and User Stories
+---
+title: Problem Modeling and User Stories
+duration: "2:30"
+creator:
+    name: 
+    city: DC
+---
 
-## Learning Objectives
+---
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Problem Modeling and User Stories (2 hrs 30 mins)
 
+### LEARNING OBJECTIVES
+*After this lesson, you will be able to:*
 - Given a desired end-result, identify the bare minimum attributes necessary to make that end-result appear to have been met.
 - Convert user stories into actionable pseudocode.
+
+### STUDENT PRE-WORK
+*Before this lesson, you should already be able to:*
+- Describe some concept
+- Explain how to do something
+- Do or build something
+
+### INSTRUCTOR PREP
+*Before this lesson, instructors will need to:*
+- Gather materials needed for class
+- Complete Prep work required
+- Prepare any specific instructions
 
 ## Framing
 
